@@ -1,0 +1,11 @@
+<h1>Stupid coaching</h1>
+<%# display questions user asks %>
+<h3>questions:</h3>
+<Blockquote>
+  <p><%= @question %></p>
+</Blockquote>
+<%# display coaches answers %>
+<blockquote class="coachanswer">
+ <p><%= @answer %></p>
+</blockquote>
+<%= link_to "Ask again?", ask_path %>
